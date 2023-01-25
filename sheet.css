@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ubuntu:wght@300;400&display=swap');
+
+:root{
+    --primary-color:#7e22ce;
+
+}
+
+.container{
+    
+    text-align: center;
+    margin: 4rem auto 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    
+    
+    
+}
+
+div{
+    display: block;
+}
+
+body{
+    min-width: 100vw;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+    
+
+#check-button{
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    font-size: large;
+    
+}
+
+#cash-given{
+    margin-bottom: 2rem;
+}
+
+#bill-amount{
+    margin-bottom: 2rem;
+    
+}
+
+table, th, td {
+    border: 1px solid var(--primary-color);
+  }
+
+.heading{
+    color: var(--primary-color);
+  }
+
+  .input-label{
+    font-size: x-large;
+
+  }
+
+  #bill-amount{
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem ;
+    
+   
+    
+    
+
+    
+  }
+
+  #cash-given{
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    
+  }
+
+  caption{
+    font-size: larger;
+    font-weight: bold;
+  }
